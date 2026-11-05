@@ -1,0 +1,54 @@
+// Generated for Flutter Web & Mobile
+import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
+import 'package:flutter/foundation.dart'
+    show kIsWeb, defaultTargetPlatform, TargetPlatform;
+
+class DefaultFirebaseOptions {
+  static FirebaseOptions get currentPlatform {
+    if (kIsWeb) {
+      return web;
+    }
+    switch (defaultTargetPlatform) {
+      case TargetPlatform.android:
+        return android;
+      case TargetPlatform.iOS:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios.',
+        );
+      case TargetPlatform.macOS:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos.',
+        );
+      case TargetPlatform.windows:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows.',
+        );
+      case TargetPlatform.linux:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for linux.',
+        );
+      default:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions are not supported for this platform.',
+        );
+    }
+  }
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyCEXbZq0PAufKbdCKiViUaPTABfaHHKlU8',
+    appId: '1:1514451808:web:8826e1df88abdc0565e405',
+    messagingSenderId: '1514451808',
+    projectId: 'dayby-56075',
+    authDomain: 'dayby-56075.firebaseapp.com',
+    storageBucket: 'dayby-56075.firebasestorage.app',
+    measurementId: 'G-1N2ME1QXHM',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyCEXbZq0PAufKbdCKiViUaPTABfaHHKlU8',
+    appId: '1:1514451808:android:f19af2f0d264f00a65e405',
+    messagingSenderId: '1514451808',
+    projectId: 'dayby-56075',
+    storageBucket: 'dayby-56075.firebasestorage.app',
+  );
+}

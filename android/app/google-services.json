@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1514451808",
+    "project_id": "dayby-56075",
+    "storage_bucket": "dayby-56075.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1514451808:android:f19af2f0d264f00a65e405",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSGUt-GLYjM_LpgfvvJdsagG2-ySJcIOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
